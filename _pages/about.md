@@ -6,6 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Theo Dapamede is a postdoctoral fellow at Emory University. He is actively contributing to the advancement of medical AI and its impact on patient care. His journey began with an MD from Brawijaya University in Indonesia, leading him to pursue a PhD at Otago University, New Zealand. There, he focused on building AI models for image reconstruction, denoising, and material decomposition in spectral photon counting CT scans.
+Theo Dapamede is a physician-scientist and postdoctoral fellow in the HITI Lab, Department of Radiology and Imaging Sciences, Emory University. His research applies artificial intelligence to medical imaging, with a focus on opportunistic screening: using images already taken for one purpose to uncover hidden signs of other diseases.
 
-Currently, Theo is experimenting with different preprocessing techniques during dataset curation, and is also exploring the exciting possibility of using AI in opportunistic scans to potentially discover hidden clues about diseases. He has presented research on the importance of DICOM Look Up Tables (LUT) in medical image preprocessing for training deep learning models. His work suggests that utilizing DICOM LUT enhances deep learning model performance and generalizability.
+His lead work shows that AI-based quantification of breast arterial calcification on routine screening mammograms predicts cardiovascular disease and mortality in women. The study was published in the *European Heart Journal* (2026) and covered by more than 110 news outlets, including *The Washington Post*. He has also developed a deep learning model that screens for chronic kidney disease from chest radiographs (*eClinicalMedicine*, 2026), and is extending the approach to heart failure and other cardiovascular conditions.
+
+Alongside this, Theo studies how clinical AI performs after it leaves the lab: evaluating commercial AI tools in real-world use and building large language model pipelines for automated post-deployment monitoring. He also works on the image preprocessing that makes models generalize, from showing the importance of DICOM look-up tables (LUT) to co-developing [RadReader](https://pypi.org/project/radreader/), a Python package that reads DICOM images as a radiologist would see them.
+
+Theo earned his medical degrees from Universitas Brawijaya, Indonesia, a Master of Health Technology Innovation from the University of Sydney, and a PhD from the University of Otago, New Zealand, where he built constrained neural networks for MARS spectral photon-counting CT. His work has been recognized with the SIIM Best Research Paper Award (2025) and the Emory School of Medicine High Impact Research Award (2026), and he serves on the 2026–2027 Early Career Editorial Board of *Radiology: Cardiothoracic Imaging*.
+
+[Download CV (PDF)](/files/Dapamede_CV.pdf)
