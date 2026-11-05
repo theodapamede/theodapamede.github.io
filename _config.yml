@@ -21,7 +21,7 @@ repository               : "theodapamede/theodapamede.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Theo Dapamede, MD, PhD"
   pronouns         : # example: "she/her"  
   bio              : "𝘗𝘦𝘳 𝘢𝘴𝘱𝘦𝘳𝘢 𝘢𝘥 𝘢𝘴𝘵𝘳𝘢"
