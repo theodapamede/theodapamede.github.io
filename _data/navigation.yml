@@ -1,22 +1,4 @@
-# main links links
+# Links shown in the site header, in this order.
 main:
-  # - title: "Publications"
-  #   url: /publications/
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
   - title: "CV"
     url: /files/Dapamede_CV.pdf
-    
-  # - title: "Guide"
-  #   url: /markdown/
