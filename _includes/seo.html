@@ -26,7 +26,14 @@ Absolute URLs (containing "://") are used as-is; relative paths are resolved und
 with base_path so the result is always absolute.
 {% endcomment %}
 {% assign seo_image_abs = false %}
-{% if page.header.image %}
+{% comment %} Custom: page.og_image sets a per-page share image without showing a header banner {% endcomment %}
+{% if page.og_image %}
+  {% if page.og_image contains "://" %}
+    {% assign seo_image_abs = page.og_image %}
+  {% else %}
+    {% assign seo_image_abs = page.og_image | prepend: "/images/" | prepend: base_path %}
+  {% endif %}
+{% elsif page.header.image %}
   {% if page.header.image contains "://" %}
     {% assign seo_image_abs = page.header.image %}
   {% else %}

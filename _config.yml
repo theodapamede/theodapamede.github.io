@@ -232,10 +232,22 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  highlights:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
 defaults:
+  # _highlights (research highlights: short plain-language write-ups)
+  - scope:
+      path: ""
+      type: highlights
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
   # _posts
   - scope:
       path: ""

@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Research Highlights"
+permalink: /highlights/
+author_profile: true
+description: "Plain-language summaries of research by Theo Dapamede on AI for medical imaging and opportunistic screening."
+---
+
+{% include base_path %}
+
+<p>Short, plain-language summaries of selected work. For the full list of publications, see my <a href="{{ base_path }}/files/Dapamede_CV.pdf">CV</a>.</p>
+
+{% assign highlights = site.highlights | sort: "date" | reverse %}
+{% for post in highlights %}
+  {% include archive-single.html %}
+{% endfor %}

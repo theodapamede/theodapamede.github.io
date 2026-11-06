@@ -1,4 +1,7 @@
 # Links shown in the site header, in this order.
 main:
+  - title: "Highlights"
+    url: /highlights/
+
   - title: "CV"
     url: /files/Dapamede_CV.pdf
