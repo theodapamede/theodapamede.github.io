@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About"
+seo_title: "Theo Dapamede, MD, PhD · AI for Medical Imaging"
 author_profile: true
 redirect_from: 
   - /about/
