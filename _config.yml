@@ -13,7 +13,7 @@ title                    : "Theo Dapamede"
 title_separator          : "-"
 name                     : &name "Theo Dapamede"
 description              : &description "Physician-scientist and postdoctoral fellow at Emory University working on AI for medical imaging and opportunistic screening."
-url                      : https://dapamede.com
+url                      : https://www.dapamede.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "theodapamede/theodapamede.github.io"
 
